@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[]) 
 {
-    char str[7];
+    char str[256];
     
     while(fgets(str, sizeof(str), stdin)){
         printf("%s", str);
